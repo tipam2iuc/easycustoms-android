@@ -32,21 +32,21 @@ public class Connexion extends AppCompatActivity  {
                 startActivity(RegisterIntent);
             }
         });
-        mButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String user=mTextUsername.getText().toString().trim();
-                String pwd=mPassword.getText().toString().trim();
-                Boolean res= db.checkUser(user,pwd);
-                if(res==true) {
-                    Toast.makeText(Connexion.this,"Reussi",Toast.LENGTH_SHORT).show();
-                }
-                else {
-                    Toast.makeText(Connexion.this,"Erreur",Toast.LENGTH_SHORT).show();
-
-                }
-            }
-        });
+//        mButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String user=mTextUsername.getText().toString().trim();
+//                String pwd=mPassword.getText().toString().trim();
+//                //Boolean res= db.checkUser(user,pwd);
+//                if(res==true) {
+//                    Toast.makeText(Connexion.this,"Reussi",Toast.LENGTH_SHORT).show();
+//                }
+//                else {
+//                    Toast.makeText(Connexion.this,"Erreur",Toast.LENGTH_SHORT).show();
+//
+//                }
+//            }
+//        });
 
     }
 }
