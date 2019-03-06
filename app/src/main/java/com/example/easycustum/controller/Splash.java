@@ -1,7 +1,9 @@
-package com.example.easycustum;
+package com.example.easycustum.controller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.easycustum.R;
 
 public class Splash extends AppCompatActivity {
 

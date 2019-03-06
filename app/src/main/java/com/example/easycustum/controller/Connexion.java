@@ -1,4 +1,4 @@
-package com.example.easycustum;
+package com.example.easycustum.controller;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.example.easycustum.R;
+import com.example.easycustum.model.db_user;
 
 public class Connexion extends AppCompatActivity  {
    EditText mTextUsername;

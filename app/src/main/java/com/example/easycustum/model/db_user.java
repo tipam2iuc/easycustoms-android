@@ -1,4 +1,4 @@
-package com.example.easycustum;
+package com.example.easycustum.model;
 
 import android.content.ContentValues;
 import android.content.Context;

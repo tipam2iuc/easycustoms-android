@@ -1,13 +1,15 @@
-package com.example.easycustum;
+package com.example.easycustum.controller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Description extends AppCompatActivity {
+import com.example.easycustum.R;
+
+public class CategoryListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_description);
+        setContentView(R.layout.activity_category_list);
     }
 }
