@@ -8,4 +8,7 @@
     <color name="black_break">#565656</color>
     <color name="white">#FFF</color>
     <color name="gray">#FF75726C</color>
+    <color name="colorBlanc">#F7F5F5</color>
+    <color name="colorOrange">#F97B27</color>
+    <color name="colorNoir">#242321</color>
 </resources>
