@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/horse"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/appel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:text="DETAIL DU PRODUIT"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/img_product" />
+
+    <TextView
+        android:id="@+id/describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:text="le present chapitre comprends les animaux vivant, a l'exclusion: \n a) des poissons et des crustaces,des mulusques et des autres invertebres aquatique, des n~s 03.01, 03.06 au 03.07; \n b) des cultures de micro-organismes et des autres produits du n~30.02\n c) des animaux du n~95.08"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_sous_categories"
+        app:layout_constraintTop_toBottomOf="@id/appel" />
+
+
+</android.support.constraint.ConstraintLayout>

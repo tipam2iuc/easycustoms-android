@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">EasyCustum</string>
+    <string name="app_name">EasyCustom</string>
+    <string name="app_image_name">Image_representant_un_nouveau_produit</string>
+    <string name="app_name_home">Accueil</string>
+    <string name="app_slogan">Gardez un œil au-délà des frontières</string>
+    <string name="email"> Votre email</string>
+    <string name="password">votre mot de passe</string>
+    <string name="confirme">confirmer mot de passe</string>
+    <string name="accueil">Accueil</string>
+    <string name="notification">Notification</string>
+    <string name="parametre">Parametres</string>
+    <string name="categorie">Catégories</string>
+    <string name="app_description">Lorem ipsum dolore, i know the one.. take another shield ! WTF.....♪</string>
 </resources>

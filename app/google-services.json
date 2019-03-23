@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461142844220",
+    "firebase_url": "https://easycustom-c872b.firebaseio.com",
+    "project_id": "easycustom-c872b",
+    "storage_bucket": "easycustom-c872b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461142844220:android:b525b61ccbb1af73",
+        "android_client_info": {
+          "package_name": "com.example.lyrad_lerbac.easycustom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461142844220-08qu8armd512lo5fv41vntog5728lg0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lyrad_lerbac.easycustom",
+            "certificate_hash": "8ca5b1e307fcbf9d22a870ad05dfd20f19414e12"
+          }
+        },
+        {
+          "client_id": "461142844220-jm0npi0ubukl1ke7oj3vd8l4p5d8oqb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-HZXbJxf1wXFNgUJ_Rb2A_-4N6wBE7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461142844220-jm0npi0ubukl1ke7oj3vd8l4p5d8oqb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
